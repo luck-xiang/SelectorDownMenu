@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/shape_up_down_line"
+    android:showDividers="middle"
+    android:divider="@drawable/shape_ll_divider"
+    android:orientation="horizontal">
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/btn_select_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@null"
+            android:text="姓名"
+            android:singleLine="true"
+            android:drawableRight="@drawable/selector_arrows"
+            android:paddingRight="10dp"
+            android:textColor="@color/color_333333">
+    </Button>
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/btn_select_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@null"
+            android:text="班级"
+            android:singleLine="true"
+            android:drawableRight="@drawable/selector_arrows"
+            android:paddingRight="10dp"
+            android:textColor="@color/color_333333">
+    </Button>
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/btn_select_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@null"
+            android:text="学号"
+            android:singleLine="true"
+            android:drawableRight="@drawable/selector_arrows"
+            android:paddingRight="10dp"
+            android:textColor="@color/color_333333">
+    </Button>
+
+</LinearLayout>

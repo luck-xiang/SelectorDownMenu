@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_1"
+        android:text="更新第一个的数据"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="50dp"/>
+
+
+    <com.ybao.pullrefreshview.layout.PullRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <com.ybao.pullrefreshview.simple.view.NormalHeaderView
+            android:id="@+id/pl_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <com.ybao.pullrefreshview.simple.view.NormalFooterView
+        android:id="@+id/pl_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rlv_hovering"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.kxiang.selectordownmenu.selector.SelectorDownMenu
+            android:id="@+id/sd_selector"
+            android:background="@drawable/shape_up_down_line"
+            android:showDividers="middle"
+            android:divider="@drawable/shape_ll_divider"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </com.ybao.pullrefreshview.layout.PullRefreshLayout>
+
+
+</LinearLayout>

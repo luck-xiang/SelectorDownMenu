@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@null"
+        android:text="@string/no_value"
+        android:singleLine="true"
+        android:drawableRight="@drawable/selector_arrows"
+        android:paddingRight="10dp"
+        android:textColor="@color/color_333333">
+</Button>

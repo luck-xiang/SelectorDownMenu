@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+              android:id="@+id/ll_replay_id"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我靠近顶部"
+        android:textColor="#3557df"/>
+
+    <TextView
+        android:id="@+id/tv_one_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="一号"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#3557df"/>
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_all"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="有内容哦"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
